@@ -37,7 +37,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  border: 32px;
+  border: 1px solid #838383;
 }
 
 .form__input::placeholder {

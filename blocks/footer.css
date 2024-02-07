@@ -30,12 +30,12 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  margin: 0;
+  margin-bottom: 16px;
   padding-left: 0;
 }
 
 .footer__list-item:last-of-type {
-  margin-bottom: 16px;
+  margin: 0;
 }
 
 .footer__social-icon {
@@ -45,7 +45,7 @@
 }
 
 .footer__social-link {
-  transition: color 0.3s ease;
+  transition: #fff 0.3s ease;
   text-decoration: none;
 }
 
