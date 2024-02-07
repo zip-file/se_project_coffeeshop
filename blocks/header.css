@@ -9,6 +9,7 @@
   max-height: 800px;
   height: 100vh;
   padding: 30px 80px 40px;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -26,7 +27,7 @@
 .header__span-accent {
   display: block;
   color: #2f80ed;
-  font-family: "Noto Serif", "Times New Roman", "serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -38,7 +39,7 @@
   font-size: 20px;
   line-height: 30px;
   margin: 0;
-  font-family: "Noto Serif", "Times New Roman", "serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: 400;
   z-index: 1;
 }
@@ -64,6 +65,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  z-index: 1;
 }
 
 .header__paragraph {

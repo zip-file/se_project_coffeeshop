@@ -37,6 +37,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  border: 32px;
 }
 
 .form__input::placeholder {
@@ -63,6 +64,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  border: none;
+  color: #fff;
 }
 
 .form__button:hover {

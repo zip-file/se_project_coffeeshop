@@ -15,6 +15,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0;
 }
 
 .recipes__subtitle {
@@ -29,18 +30,16 @@
 }
 
 .recipes__videos {
-  margin: 24px 0 0;
+  margin: 80px 0 0;
   display: flex;
-  gap: 100px;
+  gap: 40px;
   justify-content: center;
 }
 
 .recipes__iframe {
-  display: flex;
-  gap: 40px;
-  justify-content: center;
   height: 273px;
   width: 480px;
+  border: none;
 }
 
 .recipes__video-caption {
@@ -50,4 +49,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0 0;
 }
